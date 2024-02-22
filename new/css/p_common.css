@@ -340,7 +340,7 @@ footer .footer_top .snsList {display:flex; margin-top:50px; align-items: center;
 footer .footer_top .snsList li {width:38px; height:38px;}
 footer .footer_top .snsList li + li {margin-left:25px;}
 footer .footer_top .snsList li a ion-icon{font-size: 35px; color:#7c7c7c;}
-footer .footer_top .snsList li.x {width: 25px; height: 25px; background:url(/images/sns-x.svg) no-repeat center center / cover;}
+footer .footer_top .snsList li.x {width: 25px; height: 25px; background:url(/images/sns-x.svg) no-repeat center center / cover; cursor: pointer;}
 
 footer .footer_top {padding:100px 0 50px;}
 
