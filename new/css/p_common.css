@@ -306,7 +306,6 @@ border: 1px solid #f2f2f2; padding: 45px 30px; font-size: 14px; color:#808080; }
   color:#615954; 
   font-size: 16px; 
   position:relative; 
-  transition:all 0.3s ease 0s; 
   height:40px; 
   line-height:40px; 
   font-weight:400; 
@@ -328,10 +327,7 @@ border: 1px solid #f2f2f2; padding: 45px 30px; font-size: 14px; color:#808080; }
 		opacity:0;
 	}
 .header-wrap #gnb .main_menu.active .titDot {color:#fff5e7;}
-.header-wrap #gnb .main_menu.active .titDot:before {top:-1rem;
-		opacity:1;}
-
-
+.header-wrap #gnb .main_menu.active .titDot:before {top:-1rem; opacity:1;}
 
 
 footer {background:#fcfcfc;}
