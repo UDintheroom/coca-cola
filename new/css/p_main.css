@@ -156,7 +156,7 @@
 }
 .Msection4 .list_wrap.aos-animate .ani___orange.left {
 	margin-right: -250px;
-	animation: moveAndWaveLeft 2000ms linear forwards;
+	animation: moveAndWaveLeft 1500ms linear forwards;
 }
 @keyframes moveAndWaveLeft {
 	0% {

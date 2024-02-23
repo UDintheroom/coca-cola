@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
   <script type="text/javascript" src="/new/lib/js/util.lib.js"></script>
   <script type="text/javascript" src="/new/js/common.js"></script>
   <script type="text/javascript" src="/new/js/main.js"></script>
@@ -28,16 +29,16 @@
   
 
 <script>
-	
-	const __baseRoot = "/new";
-	const __basePath = "/new";
+	const __baseRoot = "/";
+	const __basePath = "/";
 </script>
+
 </head>
 <body class="intro-animation">
   <div id="wrap">	<header class="header">
 	<div class="header-wrap main">
 		<div class="logo">
-			<a href="#" class="logo_img">코카-콜라 컴퍼니 로고</a>
+			<a href="#" class="logo_img">코카-콜라 컴퍼니</a>
     </div>
 
 		<div class="header container">		
@@ -371,7 +372,7 @@
       <div class="fixed_txt">
         <h1>뉴진스 참여, 코-크 스튜디오 트랙 공개!</h1>
       </div>
-      <video controls autoplay muted loop>
+      <video controls autoplay muted loop playsinline>
         <source src="/images/video-newjeans.mp4" type="video/mp4">
       </video>
     </a>
@@ -381,7 +382,7 @@
       <div class="fixed_txt">
         <h1>코카-콜라 ‘리얼 매직’ 세계로 초대합니다!​</h1>
       </div>
-      <video controls autoplay muted loop>
+      <video controls autoplay muted loop playsinline>
         <source src="/images/video-together.mp4" type="video/mp4">
       </video>
     </a>
@@ -391,7 +392,7 @@
       <div class="fixed_txt">
         <h1>4년 만에 바뀐 코카-콜라 패키지!</h1>
       </div>
-      <video controls autoplay muted loop>
+      <video controls autoplay muted loop playsinline>
         <source src="/images/video-bottle.mp4" type="video/mp4">
       </video>
     </a>
@@ -636,8 +637,6 @@
 	});
 </script>
 		</div>
-    <!--//wrap-->
-
 	<footer data-aos="fade-up">
 		<div class="footer_top">
 			<div class="container">
@@ -701,19 +700,19 @@
 			</div>
 		</div>
 	</footer>
-					<!-- <script type="text/javascript">
-		$(window).resize(function() {
-			var docWidth = $(window).width();
-	
-		  	if (docWidth < 1000) {
-				var href = $(location).attr('href');
-				var pathname = $(location).attr('pathname');
-				//document.location.href = href.replace(__basePath + pathname , __basePath + "/m" + pathname);
-	
-				document.location.href = __basePath + "/mo" + href.substring(href.lastIndexOf(pathname) + __basePath.length, href.length);
-	
-		  }
-		});
-	</script> -->
+<script type="text/javascript">
+  $(window).resize(function() {
+      var docWidth = $(window).width();
+      
+      if (docWidth < 1000) {
+          var href = $(location).attr('href');
+          var pathname = $(location).attr('pathname');
+          
+          var newPathname = pathname.substring(0, pathname.lastIndexOf('/'));
+          
+          document.location.href = __basePath + "mo-main.html";
+      }
+  });
+</script>
 </body>
 </html>
