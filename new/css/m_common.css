@@ -605,11 +605,7 @@ a.btn-yellow {color:#fff; border:1px solid #c2a165; background:#c2a165; }
 .ellipse.lh3 { white-space: normal; line-height: 1.5; height: 4.6em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
 .ellipse.lh4 { white-space: normal; line-height: 1.5; height: 6.1em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
 
-.quickBtn {position:fixed; bottom:8vw; right:8vw; opacity:0; z-index:9;}
-.quickBtn .img_wrap {width:16vw; box-shadow:10px 0 62px rgba(48 48 48 / 24%); border-radius:50%; position:relative;}
-.quickBtn .img_wrap img {width:100%;}
-.quickBtn .img_wrap:after {content:""; display:inline-block; width:16vw; height:16vw; background:url("/new/mo/images/common/quick_btn_text.png") no-repeat center; 
-position:absolute; bottom:0; right:0; background-size:cover; z-index:1; animation:rotating 30s linear infinite both;}
+.quickBtn {position:fixed; bottom:6vw; right:6vw; opacity:0; z-index:9;}
 
 
 .quickContent {display:none;}
