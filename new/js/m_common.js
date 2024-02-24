@@ -67,3 +67,22 @@ $(window).scroll(function () {
 	}
 	$(".header-wrap.main.fixed .logo .logo_img").css("opacity",1);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('scroll', function() {
+    var topBtn = document.getElementById('topBtn');
+    if (window.scrollY > 20) {
+        topBtn.style.display = 'block';
+    } else {
+        topBtn.style.display = 'none';
+    }
+  });
+  document.getElementById('topBtn').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
+  });
+});
+

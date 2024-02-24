@@ -261,3 +261,6 @@ $(function(){
 
 	 
 })
+
+
+// $(document).ready(function () {
