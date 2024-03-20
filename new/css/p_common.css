@@ -215,7 +215,7 @@ border: 1px solid #f2f2f2; padding: 45px 30px; font-size: 14px; color:#808080; }
   max-width:300px;
   margin:0 auto;
 }
-.header-wrap .logo .logo_img {background:url("/images/logo-white.svg")no-repeat center center / contain; text-indent:-999px; overflow:hidden;}
+.header-wrap .logo .logo_img {background:url("../../images/logo-white.svg")no-repeat center center / contain; text-indent:-999px; overflow:hidden;}
 
 .header-wrap.sub .logo {width:51px; height:51px; left:53px; top:26px;}
 
@@ -340,7 +340,7 @@ footer .footer_top .snsList {display:flex; margin-top:50px; align-items: center;
 footer .footer_top .snsList li {width:38px; height:38px;}
 footer .footer_top .snsList li + li {margin-left:15px;}
 footer .footer_top .snsList li a ion-icon{font-size: 35px; color:#7c7c7c;}
-footer .footer_top .snsList li.x {width: 25px; height: 25px; background:url(/images/sns-x.svg) no-repeat center center / cover; cursor: pointer;}
+footer .footer_top .snsList li.x {width: 25px; height: 25px; background:url(../../images/sns-x.svg) no-repeat center center / cover; cursor: pointer;}
 
 footer .footer_top {padding:100px 0 50px;}
 

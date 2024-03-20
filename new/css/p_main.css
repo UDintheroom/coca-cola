@@ -101,10 +101,10 @@
 .Msectionnew2 .loc_wrap .hover--eff + .hover--eff {margin-top:20px;}
 .Msectionnew2 .loc_wrap a img{border-radius: 0}
 
-.Msectionnew2 .smartnetwork>div{padding: 60px 50px;position: relative;height: 100%;border-radius: 20px;overflow: hidden;background: #2c2417 url("./images/Msection2_img04_bg.jpg") !important;background-position: right bottom;background-repeat: no-repeat;}
+.Msectionnew2 .smartnetwork>div{padding: 60px 50px;position: relative;height: 100%;border-radius: 20px;overflow: hidden;background: #2c2417 url("../../images/Msection2_img04_bg.jpg") !important;background-position: right bottom;background-repeat: no-repeat;}
 .Msectionnew2 .smartnetwork h1 {font-size:80px; font-weight:700; line-height:90px;font-family: 'Montserrat', sans-serif; padding-bottom:10px;text-transform:uppercase;color:#fff}
 .Msectionnew2 .smartnetwork p{color:#fff;font-size: 18px}
-.Msectionnew2 .smartnetwork a{background: url("./images/Msection2_img04_btn.png");width:209px;height: 209px;position: absolute;right:50px;bottom: 60px;    display: flex !important;
+.Msectionnew2 .smartnetwork a{background: url("../../images/Msection2_img04_btn.png");width:209px;height: 209px;position: absolute;right:50px;bottom: 60px;    display: flex !important;
     align-items: center;justify-content: center;}
 .Msectionnew2 .smartnetwork a img{width:auto;border-radius: 0;animation: rotatetxt 6s linear infinite;transform-origin: 50% 50%;height: auto}
 .Msectionnew2 .flex-box--wrap {display:flex; height:100vh; align-items:center; padding:80px 0;position: relative;}
@@ -288,7 +288,7 @@
 	width: 22px;
 	height: 22px;
 	border-radius: 50%;
-	background: url("./images/Msection6_more.png")no-repeat center;
+	background: url("../../images/Msection6_more.png")no-repeat center;
 	transition: background 0.4s, width 0.6s, height 0.6s, transform .4s;
 	transform: translate(-50%,-50%);
 	background-size:cover;
