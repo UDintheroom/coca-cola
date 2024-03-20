@@ -526,7 +526,7 @@ max-width: 42%;
   width: 45px;
   height: 45px;
   position: relative;
-  background: url("./images/Msection72_btn.png") no-repeat left center;
+  background: url("../../images/Msection72_btn.png") no-repeat left center;
 }
 .MsectionNew7 .infoWrap{margin-top: 60px}
 .MsectionNew7 .infoWrap h4{font-size: 19px;margin-bottom: 20px;font-weight: 700}
