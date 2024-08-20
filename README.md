@@ -1,4 +1,4 @@
-# 🥤 [한국 코카-콜라](http://udintheroom.me/coca-cola/) 리뉴얼
+# 🥤 <a href="http://udintheroom.me/coca-cola/" target="_blank">한국 코카-콜라</a> 리뉴얼
 > 이 페이지는 **사용자에게 풍부한 경험**을 목표로 제작하였습니다.
 
 ```
