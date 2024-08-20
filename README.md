@@ -13,6 +13,6 @@
 
 
 ### ⚙ 기술 스택
-- 디자인 : Figma, Adobe Photoshop
-- 웹 : HTML, CSS, JS(JQ)
-- 라이브러리 : Slick.js, AOS
+- 디자인: Figma, Adobe Photoshop, Adobe Illustrator
+- 웹: HTML, CSS, JS(JQ)
+- 라이브러리: Slick.js, AOS
